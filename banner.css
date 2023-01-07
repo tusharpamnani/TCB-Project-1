@@ -1,0 +1,200 @@
+body{
+    background-color: black;
+}
+.bannerimg{
+    float: right;
+    width: 850px;
+}
+.bannertext{
+    float: left;
+    margin-top: 100px;
+    margin-left: 0px;
+}
+.head{
+    font-family: 'sans-serif';
+    font-size: 80px;
+    color: goldenrod;
+}
+.under{
+    color: white;
+    font-size: 20px;
+}
+.learn{
+    text-decoration: none;
+    color: black;
+    background-color: burlywood;
+    padding: 7px 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 19px;
+    border-radius: 6%;
+}
+p{
+    font-size: 19px;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: left;
+    color: white;
+}
+
+
+.content p{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+.head1{
+    color: white;
+    text-align: center;
+    color: goldenrod;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.text1{
+    color: white;
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.parent div img{
+    width: 300px;
+    height: 370px;
+    box-shadow: 2px 6px 10px 0px #263238;
+    
+}
+.text2{
+    font-size: 17px;
+    color: white;
+}
+.parent{
+    margin-left: 215px;
+    display: grid;
+    grid-template-columns: 10cm 10cm 10cm;
+
+}
+.parent2 div img{
+    width: 250px;
+    height: 300px;
+}
+.parent2{
+    margin-left: 170px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+}
+.text3{
+        margin-left: 140px;
+        color: white;
+        font-size: 19px;
+}
+
+.CoC{
+    list-style-type: square;
+    margin-left: 140px;
+    color: white;
+    font-size: 19px;
+}
+
+.row .col img{
+    width: 260px;
+    height: 260px;
+    padding: 15px;
+}
+.row{
+    margin-left: 300px
+}
+
+
+
+footer { 
+    width:100%; 
+    background-color:#263238;
+    margin: 0;
+}
+.row1{
+    margin-left: 260px;
+}
+
+footer .row1 .col1{
+    display: grid;
+    grid-template-columns: 10cm 10cm 10cm;
+    color: white;
+}
+footer .row1 .col1 ul{
+    list-style-type: none;
+}
+footer .row1 .col1 ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.head5{
+    font-size: 20px;
+}
+.head6{
+    color: white;
+    text-align: left;
+    color: goldenrod;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.copyright{
+    margin-left: 0;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+.explore{
+    padding: 100px 0px 200px 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+.container {
+    position: relative;
+    width: 50%;
+}
+  
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+  
+.middle {
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+}
+  
+.container:hover .image {
+    opacity: 0.3;
+}
+  
+  
+.text {
+    background-color: rgb(212, 207, 227);
+    width: 80px;
+    padding: 7px 18px 7px 18px;
+    border-radius: 10%;
+    text-align: center;
+    font-family: Georgia;
+}
+.text a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}

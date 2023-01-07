@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+}
+
+.navbar {
+    width: 100%;
+    background-color: black;
+}
+
+.navbar div ul {
+    float: left;
+}
+
+.navbar div ul li {
+    float: left;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.navbar div ul li a {
+    padding: 3px 3px;
+    text-decoration: none;
+    color: goldenrod;
+    font-size: 20px;
+}
+
+img {
+    color: white;
+    width: 1cm;
+}
+
+.name {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Cambria;
+    color: goldenrod;
+}
+
+.navbar div {
+    float: left;
+}
+
+.two {
+    margin-left: 110px;
+}
+
+.two ul li {
+    margin-left: 100px;
+}
+
+.three {
+    margin-left: 200px;
+}
+
+.three ul li img {
+    width: 25px;
+}

@@ -1,0 +1,26 @@
+.thumbnail {
+    width: 100%;
+    cursor: pointer;
+}
+.thumbnail-row {
+    margin-bottom: 8px;
+    position: relative;
+}
+.product-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+}
+.product-info {
+    margin-top: 0px;
+    font-size: 15px;
+    font-weight: 400px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    width: 245px;
+    cursor: pointer;
+}
+p {
+    color: white;
+}
